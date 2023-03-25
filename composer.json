@@ -1,0 +1,31 @@
+{
+    "name": "sandinur157/laravel-extra-command",
+    "description": "Create a Repository and Interface class using Artisan CLI",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sandinur157\\LaravelExtraCommand\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Nursandi",
+            "email": "sandinur157@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sandinur157\\LaravelExtraCommand\\LaravelExtraCommandProvider"
+            ]
+        }
+    }
+}
