@@ -13,11 +13,11 @@ For installation you can add manually the syntax because the repository not avai
 And you must to add the repository github to your composer.json.
 ```json
 "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/sandinur157/laravel-extra-command"
-      }
-  ]
+    {
+        "type": "vcs",
+        "url": "https://github.com/sandinur157/laravel-extra-command"
+    }
+]
 ```
 
 ## Artisan Command List
